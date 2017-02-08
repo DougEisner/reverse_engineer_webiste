@@ -1,0 +1,186 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  padding: 10px;
+  background-color: #D0D0D0;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  font-family: verdana;
+  color: grey;
+  font-size: 18px;
+}
+
+header .logo {
+  display: inline;
+  padding-left: 20px;
+}
+
+header nav {
+  float: right;
+  display: inline;
+  margin-right: 20px;
+  color: grey;
+}
+
+.button-top {
+  background-color: #2eb8b8;
+  border: none;
+  color: white;
+  width: 100px;
+
+  padding: 7px 25px;
+  font-family: verdana;
+  text-align: center;
+  text-decoration: none;
+  align: center;
+  font-size: 16px;
+}
+
+.features {
+  padding: 20px;
+  column-count: 3;
+  text-align: center;
+}
+
+.features img {
+  max-width: 100%;
+}
+
+.feature .description {
+  font-size: 1.4em;
+  font-family: verdana;
+}
+
+.search {
+  font-size: 2em;
+  text-align: center;
+  font-family: verdana;
+  padding-left: 80px;
+  padding-right: 40px;
+}
+
+.button {
+    background-color: #2eb8b8;
+    border: none;
+    color: white;
+    width: 120px;
+    margin: auto;
+    display: block;
+
+    padding: 10px 25px;
+    font-family: verdana;
+    text-align: center;
+    text-decoration: none;
+    align: center;
+    font-size: 16px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+.customHr {
+    width: 80%
+    font-size: 1px;
+    color: rgba(0, 0, 0, 0);
+    line-height: 2px;
+
+    background-color: #d9d9d9;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    margin-right: 30px;
+    margin-left: 30px;
+}
+
+.more_and_video {
+  padding: 100px;
+  column-count: 2;
+  text-align: center;
+}
+
+.right img {
+  max-width: 100%;
+}
+
+.left {
+  font-family: verdana;
+}
+
+.platform, .discover {
+  margin-top: 40px;
+}
+
+
+.button2 {
+    background-color: white;
+    border: 1px solid #2eb8b8;
+    color: #2eb8b8;
+    width: 175px;
+    margin: auto;
+    margin-top: 40px;
+    display: block;
+
+    padding: 10px 25px;
+    font-family: verdana;
+    text-align: center;
+    text-decoration: none;
+    align: center;
+    font-size: 16px;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+
+footer {
+  background-color: #404040;
+}
+
+.menu {
+  width: 60%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.menu div {
+  width: 33%;
+  float: left;
+  box-sizing: border-box;
+  color: white;
+  font-family: verdana;
+  margin-top: 2em;
+}
+
+h2 {
+  margin-bottom: 2em;
+  font-size: 1.2em;
+  font-family: "Varela Round","Roboto",sans-serif;
+}
+
+.about h2 {
+  color: #EDC43C;
+}
+
+.products h2 {
+  color: #45afb6;
+}
+
+.contact h2 {
+  color: #e57373;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+li {
+  margin-bottom: 1em;
+  font-size: 10pt;
+}
+
+.social {
+  text-align: center;
+  border-top: 1px #DCDCDC;
+  color: white;
+  font-size: 20px;
+  font-family: verdana;
+  padding: 2em;
+}
